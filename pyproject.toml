@@ -1,0 +1,20 @@
+[project]
+name = "agentic-ai-lab"
+version = "0.1.0"
+description = "Hands-on Agentic AI learning repository"
+
+[tool.black]
+line-length = 88
+target-version = ["py314"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py314"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "I",
+    "UP",
+]
